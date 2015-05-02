@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/************************************************ 
+**              Front Configuration 		   **
+** 				    VNF-Light				   **
+** 					VNF-Bold				   **
+*************************************************/
+
+@font-face {
+    font-family: 'VNFQuicksand-Light';
+    src: url('../fonts/VNFQuicksand-Light.eot');
+    src: url('../fonts/VNFQuicksand-Light.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/VNFQuicksand-Light.woff2') format('woff2'), 
+         url('../fonts/VNFQuicksand-Light.woff') format('woff'), 
+         url('../fonts/VNFQuicksand-Light.ttf') format('truetype'), 
+         url('../fonts/VNFQuicksand-Light.svg#VNFQuicksand-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VNFQuicksand-Bold';
+    src: url('../fonts/VNFQuicksand-Bold.eot');
+    src: url('../fonts/VNFQuicksand-Bold.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/VNFQuicksand-Bold.woff2') format('woff2'), 
+         url('../fonts/VNFQuicksand-Bold.woff') format('woff'), 
+         url('../fonts/VNFQuicksand-Bold.ttf') format('truetype'), 
+         url('../fonts/VNFQuicksand-Bold.svg#VNFQuicksand-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

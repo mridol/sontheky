@@ -1,0 +1,132 @@
+
+/**               General Config              **/
+
+a { text-decoration: none; }
+video { display: block; }
+
+/************************************************ 
+**              Navigation Wrapper 		   	   **
+*************************************************/
+
+/**         General Navigation Config          **/
+
+.navigation-wrapper {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  position: absolute;
+}
+
+.elements .item {
+	display: inline-block;
+}
+
+.brand {
+  	float: left;
+  	clear: left;
+  	margin-left: 4px;
+}
+
+.menu-left {
+	float: left;
+	clear: left;
+	margin-top: 20px;
+  	margin-left: 41px;
+}
+
+.menu-right {
+	float: right;
+	clear: right;
+	margin-top: 20px;
+	margin-right: 41px;
+}
+
+.item a {
+	font-family: 'VNFQuicksand-Bold';
+}
+.video-wrapper {
+	padding: 0px;
+	margin: 0px;
+}
+
+#video-bg {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  background-size: cover;
+  background: transparent url(video-bg.jpg) no-repeat;
+}
+
+///////////////480px//////////////////
+@media only screen and (min-width: 480px) {
+
+}
+
+///////////////768px//////////////////
+@media only screen and (min-width: 768px) {
+
+}
+
+///////////////1024px//////////////////
+@media only screen and (min-width: 992px) {
+
+}
+
+///////////////1200px//////////////////
+@media only screen and (min-width: 1200px) {
+
+}
+
+/************************************************ 
+**                Content Wrapper 		   	     **
+*************************************************/
+
+///////////////480px//////////////////
+@media only screen and (min-width: 480px) {
+
+}
+
+///////////////768px//////////////////
+@media only screen and (min-width: 768px) {
+
+}
+
+///////////////1024px//////////////////
+@media only screen and (min-width: 992px) {
+
+}
+///////////////1200px//////////////////
+@media only screen and (min-width: 1200px) {
+
+}
+
+/************************************************ 
+**                Footer Wrapper 		   	   **
+*************************************************/
+
+///////////////480px//////////////////
+@media only screen and (min-width: 480px) {
+
+}
+
+///////////////768px//////////////////
+@media only screen and (min-width: 768px) {
+
+}
+
+///////////////1024px//////////////////
+@media only screen and (min-width: 992px) {
+
+}
+///////////////1200px//////////////////
+@media only screen and (min-width: 1200px) {
+
+}
