@@ -25,7 +25,10 @@
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/button.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="owl-carousel/owl.theme.css">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bak.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -39,13 +42,8 @@
   <body class="layout-config">
     <div class="wrapper">
         <div class="main-content">
-              <div class="header">
+            <div class="header">
                 <div class="container">
-                    <div class="brand tablet-portrait-hidden">
-                        <a href="index.html">
-                          <img src="http://www.sontheky.vn/Data/ResizeImage/images/img6x143x91x2.png" alt="Siêu Thị Sơn Thế Kỉ" class="logo">
-                        </a>
-                    </div>
                     <div class="nav nav-small-screen" role="navigation">
                         <div class="menu-list">
                             <ul class="menu menu-left">
@@ -68,6 +66,12 @@
                             </ul>
                         </div>
                     </div><!-- ./nav -->
+
+                    <div class="brand tablet-portrait-hidden">
+                        <a href="index.html">
+                          <img src="http://www.sontheky.vn/Data/ResizeImage/images/img6x143x91x2.png" alt="Siêu Thị Sơn Thế Kỉ" class="logo">
+                        </a>
+                    </div>
                 </div><!-- ./container -->
 
                 <div class="video-wrapper">
@@ -80,14 +84,50 @@
             </div><!-- ./header -->
 
             <div class="section-wrapper">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <div id="carousel">	
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">1</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">2</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">3</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">4</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">5</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">6</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">7</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">8</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">9</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">10</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">11</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">12</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">13</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">14</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">15</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">16</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">17</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">18</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">19</a></div>
+				<div class="item"><a href="#"><img src="img/1.jpeg" alt="">20</a></div>
+              </div>
             </div>
         </div>
     </div><!-- ./wrapper -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="owl-carousel/owl.carousel.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/madeJS.js"></script>
+
+    <script>
+    $(document).ready(function(){
+    	$('#carousel').owlCarousel({
+    		items : 6,
+    		itemDesktop : [1200,5],
+    		itemDesktopSmall : [900,4],
+    		itemTablet : [768,3],
+    		autoPlay : 2000,
+    		navigation : true,
+    		navigationText : ['<','>']
+    	})
+    })
+    </script>
   </body>
 </html>

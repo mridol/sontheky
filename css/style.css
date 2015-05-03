@@ -56,8 +56,78 @@ body {
   font-size: 20px;
 }
 
-@media (min-width: 480px) {
-  .nav { display: none; }
+@media (min-width: 320px) and (max-width: 480px)  {
+  .nav-small-screen, .brand {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    display: block;
+    position: absolute;
+  }
+
+  .tablet-portrait-hidden { display: none; }
+
+  .nav-small-screen {
+    width: 120px;
+    height: 100%;
+    position: fixed;
+    background: #2a3542;
+    display: none;
+    text-align: center;
+  }
+
+  .menu-icon {
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: block;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: rgba(41, 128, 185,1.0);
+  }
+
+  .menu-icon:hover {
+    cursor:pointer;
+    color: rgba(219, 10, 91,1.0);
+  }
+  
+  .menu-icon-close {
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    color: rgba(219, 10, 91,1.0);
+    background-color: #2a3542;
+    padding: 5px 10px 5px 10px;
+  }
+
+  .menu-icon-close:hover {
+    cursor:pointer;
+    color: rgba(219, 10, 91,1.0);
+  }
+
+  .wrapper-section {
+    position :relative;
+  }
+
+  .menu .item {
+    display: block;
+  }
+
+  .item a { font-size: 14px; }
+
+  .hidden-large-screen { display: block; z-index: 10; position: relative; }
+
+  .logo {
+    width: 120px;
+  }
+
+  .menu-toggle { display: block; position: fixed; }
 }
 
 @media (min-width: 768px) {
@@ -131,10 +201,10 @@ body {
     width: 240px;
   }
 
-  .menu-toggle { display: block; }
+  .menu-toggle { display: block; position: fixed; }
 }
 
-@media (min-width: 992px)  {
+@media (min-width: 972px)  {
   .nav-small-screen, .menu-toggle { display: none; }
 
   .nav, .brand {

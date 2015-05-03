@@ -52,7 +52,7 @@
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 980px) {
     .button-black {
     	display: inline-block;
         padding: 1em;

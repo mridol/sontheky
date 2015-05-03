@@ -275,7 +275,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 980px) {
   /* Underline From Center Black */
   .hvr-underline-from-center-black {
     display: inline-block;
