@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
   <head>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta charset="utf-8">
@@ -20,11 +20,12 @@
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     
     <title>Siêu Thị Sơn Thế Kỉ</title>
-    <link href="css/reset.min.css" rel="stylesheet">
-    <link href="css/grid.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/button.min.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -34,55 +35,55 @@
         document.createElement('video');
       </script>
     <![endif]-->
-    <!-- Made by me -->
-    <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
-    <div class="header-wrapper">
-      <div class="header-content">
-        <div class="header">
-          <div class="row">
-            <div class="navigation-wrapper">
-              <div class="navigation">
-                <div class="navigation-bar">
-                  <div class="col-xs-6 col-sm-4 col-lg-5">
-                    <ul class="elements menu menu-left">
-                      <li class="item"><a href="#" class="button-blue hvr-underline-from-center-blue">Giới Thiệu</a></li>
-                      <li class="item"><a href="#" class="button-red hvr-underline-from-center-red">Liên hệ</a></li>
-                      <li class="item"><a href="#" class="button-yellow hvr-underline-from-center-yellow">Đại lý</a></li>
-                      <li class="item"><a href="#" class="button-pink hvr-underline-from-center-pink">Nhà Đẹp</a></li>
-                    </ul>
-                  </div>
-                  <div class="col-xs-6 col-sm-1 col-lg-1">
-                    <ul class="elements menu brand">
-                      <li class="item">
-                        <a href="#">
+  <body class="layout-config">
+    <div class="wrapper">
+        <div class="main-content">
+              <div class="header">
+                <div class="container">
+                    <div class="brand tablet-portrait-hidden">
+                        <a href="index.html">
                           <img src="http://www.sontheky.vn/Data/ResizeImage/images/img6x143x91x2.png" alt="Siêu Thị Sơn Thế Kỉ" class="logo">
                         </a>
-                      </li>
-                    </ul> 
-                  </div>
-                  <div class="col-xs-6 col-sm-5 col-lg-5">
-                    <ul class="elements menu menu-right">  
-                      <li class="item"><a href="#" class="button-black hvr-underline-from-center-black">Tin Tức</a></li>
-                      <li class="item"><a href="#" class="button-green hvr-underline-from-center-green">Sản Phẩm</a></li>
-                      <li class="item"><a href="#" class="button-purple hvr-underline-from-center-purple">Gallery</a></li>
-                      <li class="item"><a href="#" class="button-orange hvr-underline-from-center-orange">Dịch vụ</a></li>
-                    </ul>
-                  </div>
-                </div><!-- ./navigation-bar -->
-              </div><!-- ./navigation -->
-            </div><!-- ./navigation-wrapper -->
-            <div class="video-wrapper col-xs-12">
-              <video autoplay loop muted poster="vid-first-frame.jpg" id="video-bg">
-               <!--  <source src="video/adv.webm" type="video/webm"> -->
-                <source src="video/adv.mp4" type="video/mp4">
-              </video>
+                    </div>
+                    <div class="nav nav-small-screen" role="navigation">
+                        <div class="menu-list">
+                            <ul class="menu menu-left">
+                              <li class="brand hidden-large-screen">
+                                  <a href="index.html">
+                                    <img src="http://www.sontheky.vn/Data/ResizeImage/images/img6x143x91x2.png" alt="Siêu Thị Sơn Thế Kỉ" class="logo">
+                                  </a>
+                              </li>
+                              <li class="item"><a href="#" class="button-blue hvr-underline-from-center-blue">Giới Thiệu</a></li>
+                              <li class="item"><a href="#" class="button-black hvr-underline-from-center-black">Tin Tức</a></li>
+                              <li class="item"><a href="#" class="button-red hvr-underline-from-center-red">Liên hệ</a></li>
+                              <li class="item"><a href="#" class="button-orange hvr-underline-from-center-orange">Dịch vụ</a></li>
+                              
+                            </ul>
+                            <ul class="menu menu-right">
+                              <li class="item"><a href="#" class="button-green hvr-underline-from-center-green">Sản Phẩm</a></li>
+                              <li class="item"><a href="#" class="button-yellow hvr-underline-from-center-yellow">Đại lý</a></li>
+                              <li class="item"><a href="#" class="button-pink hvr-underline-from-center-pink">Nhà Đẹp</a></li>
+                              <li class="item"><a href="#" class="button-purple hvr-underline-from-center-purple">Gallery</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- ./nav -->
+                </div><!-- ./container -->
+
+                <div class="video-wrapper">
+                  <video autoplay loop muted id="video-bg"> <!-- poster="vid-first-frame.jpg" -->
+                    <source src="video/adv.webm" type="video/webm">
+                    <source src="video/adv.mp4" type="video/mp4">
+                  </video>
+                </div><!-- ./video-background -->
+                <i class="menu-toggle menu-icon fa fa-bars fa-3x"></i>
+            </div><!-- ./header -->
+
+            <div class="section-wrapper">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
-          </div>
-        </div><!-- ./header -->
-      </div><!-- ./header-content-->
-    </div><!-- ./header-wrapper -->
+        </div>
+    </div><!-- ./wrapper -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

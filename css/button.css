@@ -14,12 +14,6 @@
     color: rgba(39, 174, 96,1.0);
 }
 
-.button-black {
-	display: inline-block;
-    padding: 1em;
-    color: rgba(34, 49, 63,1.0);
-}
-
 .button-purple {
     display: inline-block;
     padding: 1em;
@@ -27,13 +21,13 @@
 }
 
 .button-yellow {
-	display: inline-block;
+    display: inline-block;
     padding: 1em;
     color: rgba(241, 196, 15,1.0);
 }
 
 .button-pink {
-	display: inline-block;
+    display: inline-block;
     padding: 1em;
     color: rgba(210, 82, 127,1.0);
 }
@@ -45,7 +39,35 @@
 }
 
 .button-red {
-	display: inline-block;
+    display: inline-block;
     padding: 1em;
     color: rgba(192, 57, 43,1.0);
+}
+
+@media (min-width: 1200px) {
+    .button-black {
+        display: inline-block;
+        padding: 1em;
+        color: rgba(34, 49, 63,1.0);
+    }
+}
+
+@media (min-width: 992px) {
+    .button-black {
+    	display: inline-block;
+        padding: 1em;
+        color: rgba(34, 49, 63,1.0);
+    }
+}
+
+@media (min-width: 768px) { 
+    .button-alice {
+        display: inline-block;
+        padding: 1em;
+        color: rgba(228, 241, 254,1.0);
+    }
+
+    .button-alice:hover {
+        color: rgba(228, 241, 254,1.0);
+    }
 }
