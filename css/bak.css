@@ -1,5 +1,5 @@
 .menuScroll{
-  background: rgba(255,255,255,0.6);
+  background: rgba(255,255,255,0.9);
   height: 91px;
   position : fixed;
   top: 0px;
@@ -45,10 +45,6 @@
   padding: 1.666em 0 1.666em 3.333em;
 }
 
-.section-wrapper{
-  margin:15px 50px;
-}
-
 #carousel .item{
   margin :5px;
 }
@@ -58,9 +54,28 @@
   text-align: center;
 }
 
-#carousel img{
-  width: 100%;
+#carousel .item img{
+  width : 100%;
   height: auto;
+}
+
+#carousel .item p{
+  text-align: center;
+  padding: 20px 0;
+}
+
+#carousel .readMore{
+  position : relative;
+  margin: 0 30px;
+  border: 2px solid #6699FF;
+  border-radius: 18px;
+  padding-bottom: 3px;
+  font-size: 1.1em;
+}
+
+.readMore:hover{
+  background: #6699FF;
+  color:white;
 }
 
 .owl-theme .owl-controls .owl-buttons div {
@@ -85,4 +100,87 @@
 .owl-theme .owl-controls .owl-buttons .owl-next{
   right: -45px;
   top: 55px;
+}
+/* Phần body */
+.col-sm-6{
+  margin: 10px 0;
+}
+
+.body-item{
+  min-height: 300px;
+}
+
+.body-item .container{
+  text-align: center
+}
+
+.body-item img{
+  width: 100%;
+  height: auto;
+}
+
+.body-item h1{
+  font-family: 'VNFQuicksand-Bold', sans-serif;
+  color : white;
+  padding:10px;
+}
+
+.body-item .readMore{
+  border:2px solid #6699ff;
+  border-radius: 50px;
+
+}
+.body-item p{
+  text-align: left;
+  padding:20px;
+
+  color: blue;
+}
+
+.top{
+  background: -webkit-linear-gradient(rgba(71, 145, 255,0.5),rgba(71, 145, 255,0.2)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(71, 145, 255,0.5),rgba(71, 145, 255,0.2)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(71, 145, 255,0.5),rgba(71, 145, 255,0.2)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(71, 145, 255,0.5),rgba(71, 145, 255,0.2)); /* Standard syntax (must be last) */
+}
+.bot{
+  background: -webkit-linear-gradient(rgba(71, 145, 255,0.1),rgba(71, 145, 255,0,5)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(71, 145, 255,0.1),rgba(71, 145, 255,0.5)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(71, 145, 255,0.1),rgba(71, 145, 255,0.5)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(71, 145, 255,0.1),rgba(71, 145, 255,0.5)); /* Standard syntax (must be last) */
+}
+.mid{
+  background:none;
+}
+
+.title{
+  background : lightblue;
+  font-size: 1.8em;
+  margin:10px 0px;
+  padding:10px 40px;
+
+  font-family: Oswald;
+  text-transform: capitalize;
+  color: darkgreen ;
+}
+
+.news{
+  display : block;
+  text-decoration: none;
+}
+
+#footer{
+  height: 30px;
+  margin-top:10px;
+  padding:5px 0;
+  background: lightblue;
+}
+
+.container{
+  padding: 0 50px;
+}
+
+.tab{
+  min-height: 300px;
+  background: lightblue;
 }

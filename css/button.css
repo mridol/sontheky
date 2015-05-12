@@ -54,7 +54,7 @@
 
 @media (min-width: 980px) {
     .button-black {
-    	display: inline-block;
+        display: inline-block;
         padding: 1em;
         color: rgba(34, 49, 63,1.0);
     }
