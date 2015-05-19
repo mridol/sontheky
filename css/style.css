@@ -1,15 +1,22 @@
 /**               General Config              **/
 
-a:hover { text-decoration: none; }
-video { display: block; }
+a:hover {
+    text-decoration: none;
+}
+
+video {
+    display: block;
+}
 
 /************************************************ 
 **              Navigation Wrapper           **
 *************************************************/
-
 /**         General Navigation Config          **/
+
 body {
-    overflow-x: hidden
+    overflow-x: hidden;
+    background: url('../img/background.jpg') repeat-y;
+    background-size: 100%;
 }
 
 .wrapper {
@@ -25,319 +32,316 @@ body {
 }
 
 .video-wrapper {
-  padding: 0px;
-  margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 #video-bg {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  min-width: 100%;
-  min-height: 100%;
-  position: relative;
-  background-size: cover;
-  // background: transparent url(video-bg.jpg) no-repeat;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    background-size: cover;
+    // background: transparent url(video-bg.jpg) no-repeat;
 }
 
 .content {
-  height: 100%;
-  background-color: white;
-  position: absolute;
-  z-index: 10;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
 }
 
 .item a {
-  font-family: 'VNFQuicksand-Bold', sans-serif;
-  font-size: 20px;
+    font-family: 'VNFQuicksand-Bold', sans-serif;
+    font-size: 20px;
 }
 
-@media (min-width: 320px) and (max-width: 480px)  {
-  .nav-small-screen, .brand {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 10;
-    display: block;
-    position: absolute;
-  }
-
-  .tablet-portrait-hidden { display: none; }
-
-  .nav-small-screen {
-    width: 120px;
-    height: 100%;
-    position: fixed;
-    background: #2a3542;
-    display: none;
-    text-align: center;
-  }
-
-  .menu-icon {
-    top: 0;
-    left: 0;
-    z-index: 10;
-    display: block;
-    position: absolute;
-    margin-left: 20px;
-    margin-top: 15px;
-    color: rgba(41, 128, 185,1.0);
-  }
-
-  .menu-icon:hover {
-    cursor:pointer;
-    color: rgba(219, 10, 91,1.0);
-  }
-  
-  .menu-icon-close {
-    top: 0;
-    left: 0;
-    z-index: 10;
-    display: block;
-    position: absolute;
-    margin-top: 15px;
-    color: rgba(219, 10, 91,1.0);
-    background-color: #2a3542;
-    padding: 5px 10px 5px 10px;
-  }
-
-  .menu-icon-close:hover {
-    cursor:pointer;
-    color: rgba(219, 10, 91,1.0);
-  }
-
-  .wrapper-section {
-    position :relative;
-  }
-
-  .menu .item {
-    display: block;
-  }
-
-  .item a { font-size: 14px; }
-
-  .hidden-large-screen { display: block; z-index: 10; position: relative; }
-
-  .logo {
-    width: 120px;
-  }
-
-  .menu-toggle { display: block; position: fixed; }
-
-  .title .container{
-    font-size: 0.7em;
-  }
-
-  .body-content{
+@media (min-width: 320px) and (max-width: 480px) {
+    .nav-small-screen,
+    .brand {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+        display: block;
+        position: absolute;
+    }
+    .tablet-portrait-hidden {
+        display: none;
+    }
+    .nav-small-screen {
+        width: 120px;
+        height: 100%;
+        position: fixed;
+        background: #2a3542;
+        display: none;
+        text-align: center;
+    }
+    .menu-icon {
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: block;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 15px;
+        color: rgba(41, 128, 185, 1.0);
+    }
+    .menu-icon:hover {
+        cursor: pointer;
+        color: rgba(219, 10, 91, 1.0);
+    }
+    .menu-icon-close {
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: block;
+        position: absolute;
+        margin-top: 15px;
+        color: rgba(219, 10, 91, 1.0);
+        background-color: #2a3542;
+        padding: 5px 10px 5px 10px;
+    }
+    .menu-icon-close:hover {
+        cursor: pointer;
+        color: rgba(219, 10, 91, 1.0);
+    }
+    .wrapper-section {
+        position: relative;
+    }
+    .menu .item {
+        display: block;
+    }
+    .item a {
+        font-size: 14px;
+    }
+    .hidden-large-screen {
+        display: block;
+        z-index: 10;
+        position: relative;
+    }
+    .logo {
+        width: 120px;
+    }
+    .menu-toggle {
+        display: block;
+        position: fixed;
+    }
+    .title .container {
+        font-size: 0.8em;
+    }
+    /*  
+  .hidden-content{
     display:none;
   }
-
-  .body-item .readMore{
-    font-size: 1em;
-    padding:3px 10px;
-  }
-
-  .body-item h1{
-    font-size:1.2em;
-  }
+*/
+    
+    .mid .btn-readMore {
+        font-size: 1em;
+        padding: 3px 10px;
+    }
+    .body-item h1 {
+        font-size: 3.6em;
+    }
+    .service-subtitle {
+        font-size: 1.3em;
+    }
 }
 
 @media (min-width: 768px) {
-  .nav-small-screen, .brand {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 10;
-    display: block;
-    position: absolute;
-  }
-
-  .tablet-portrait-hidden { display: none; }
-
-  .nav-small-screen {
-    width: 240px;
-    height: 100%;
-    position: fixed;
-    background: #2a3542;
-    display: none;
-    text-align: center;
-  }
-
-  .menu-icon {
-    top: 0;
-    left: 0;
-    z-index: 10;
-    display: block;
-    position: absolute;
-    margin-left: 20px;
-    margin-top: 15px;
-    color: rgba(41, 128, 185,1.0);
-  }
-
-  .menu-icon:hover {
-    cursor:pointer;
-    color: rgba(219, 10, 91,1.0);
-  }
-  
-  .menu-icon-close {
-    top: 0;
-    left: 0;
-    z-index: 10;
-    display: block;
-    position: absolute;
-    margin-top: 15px;
-    color: rgba(219, 10, 91,1.0);
-    background-color: #2a3542;
-    padding: 5px 10px 5px 10px;
-  }
-
-  .menu-icon-close:hover {
-    cursor:pointer;
-    color: rgba(219, 10, 91,1.0);
-  }
-
-  .wrapper-section {
-    position :relative;
-  }
-
-  .menu .item {
-    display: block;
-  }
-
-  .item a { font-size: 18px; }
-
-  .hidden-large-screen { display: block; z-index: 10; position: relative; }
-
-  .logo {
-    width: 240px;
-  }
-
-  .menu-toggle { display: block; position: fixed; }
-
-  .body-item .readMore{
-    position: relative;
-    bottom: -90px;
-    font-size: 2em;
-    padding:10px 20px;
-  }
-
-  .body-item h1{
-    font-size: 2em;
-  }
+    .nav-small-screen,
+    .brand {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+        display: block;
+        position: absolute;
+    }
+    .tablet-portrait-hidden {
+        display: none;
+    }
+    .nav-small-screen {
+        width: 240px;
+        height: 100%;
+        position: fixed;
+        background: #2a3542;
+        display: none;
+        text-align: center;
+    }
+    .menu-icon {
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: block;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 15px;
+        color: rgba(41, 128, 185, 1.0);
+    }
+    .menu-icon:hover {
+        cursor: pointer;
+        color: rgba(219, 10, 91, 1.0);
+    }
+    .menu-icon-close {
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: block;
+        position: absolute;
+        margin-top: 15px;
+        color: rgba(219, 10, 91, 1.0);
+        background-color: #2a3542;
+        padding: 5px 10px 5px 10px;
+    }
+    .menu-icon-close:hover {
+        cursor: pointer;
+        color: rgba(219, 10, 91, 1.0);
+    }
+    .wrapper-section {
+        position: relative;
+    }
+    .menu .item {
+        display: block;
+    }
+    .item a {
+        font-size: 18px;
+    }
+    .hidden-large-screen {
+        display: block;
+        z-index: 10;
+        position: relative;
+    }
+    .logo {
+        width: 240px;
+    }
+    .menu-toggle {
+        display: block;
+        position: fixed;
+    }
+    .mid .btn-readMore {
+        position: relative;
+        font-size: 2em;
+        padding: 10px 20px;
+    }
+    .body-item h1 {
+        font-size: 6em;
+    }
+    .service-subtitle {
+        font-size: 1.5em;
+    }
 }
 
-@media (min-width: 972px)  {
-  .nav-small-screen, .menu-toggle { display: none; }
-
-  .nav, .brand {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 10;
-    display: block;
-    position: absolute;
-  }
-
-  .brand {
-    margin: 0 auto;
-    width: 0px;
-  }
-
-  .brand:hover {
-    cursor:pointer;
-  }
-
-  .menu {
-    margin-top: 10px;
-  }
-
-  .menu .item {
-    display: inline-block;
-  }
-
-  .menu-left {
-    float: left;
-    clear: left;
-  }
-
-  .menu-right {
-    float: right;
-    clear: right;
-  }
-
-  .item a { font-size: 16px; }
-
-  .hidden-large-screen { display: none; }
-
-  .logo {
-    position:relative;
-    right:70px;
-    top:5px;
-    width: 143px;
-  }
-
-  .readMore{
-    bottom:-90px;
-  }
+@media (min-width: 972px) {
+    .nav-small-screen,
+    .menu-toggle {
+        display: none;
+    }
+    .nav,
+    .brand {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+        display: block;
+        position: absolute;
+    }
+    .brand {
+        margin: 0 auto;
+        width: 0px;
+    }
+    .brand:hover {
+        cursor: pointer;
+    }
+    .menu {
+        margin-top: 10px;
+    }
+    .menu .item {
+        display: inline-block;
+    }
+    .menu-left {
+        float: left;
+        clear: left;
+    }
+    .menu-right {
+        float: right;
+        clear: right;
+    }
+    .item a {
+        font-size: 16px;
+    }
+    .hidden-large-screen {
+        display: none;
+    }
+    .logo {
+        position: relative;
+        right: 70px;
+        top: 5px;
+        width: 143px;
+    }
+    .service-subtitle {
+        font-size: 1.8em;
+    }
 }
 
 @media (min-width: 1200px) {
-  .nav-small-screen, .menu-toggle { display: none; }
-
-  .nav, .brand {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 10;
-    display: block;
-    position: absolute;
-  }
-
-  .brand {
-    margin: 0 auto;
-    width: 0px;
-  }
-
-  .brand:hover {
-    cursor:pointer;
-  }
-
-  .menu {
-    margin-top: 10px;
-  }
-
-  .menu .item {
-    display: inline-block;
-  }
-
-  .menu-left {
-    float: left;
-    clear: left;
-    margin-left: 50px;   
-  }
-
-  .menu-right {
-    float: right;
-    clear: right;
-    margin-right: 50px;
-  }
-
-  .item a { font-size: 20px; }
-
-  .hidden-large-screen { display: none; }
-
-  .logo {
-    position:relative;
-    right:70px;
-    top:5px;
-    width: 143px;
-  }
+    .nav-small-screen,
+    .menu-toggle {
+        display: none;
+    }
+    .nav,
+    .brand {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+        display: block;
+        position: absolute;
+    }
+    .brand {
+        margin: 0 auto;
+        width: 0px;
+    }
+    .brand:hover {
+        cursor: pointer;
+    }
+    .menu {
+        margin-top: 10px;
+    }
+    .menu .item {
+        display: inline-block;
+    }
+    .menu-left {
+        float: left;
+        clear: left;
+        margin-left: 50px;
+    }
+    .menu-right {
+        float: right;
+        clear: right;
+        margin-right: 50px;
+    }
+    .item a {
+        font-size: 20px;
+    }
+    .hidden-large-screen {
+        display: none;
+    }
+    .logo {
+        position: relative;
+        right: 70px;
+        top: 5px;
+        width: 143px;
+    }
 }

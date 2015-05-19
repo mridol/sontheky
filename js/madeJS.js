@@ -35,6 +35,7 @@ jQuery(document).ready(function($) {
 		    });
 		} 
 		else {
+			$('.hotproduct').css('padding-left','35px');
 			$('.nav-small-screen').addClass('nav').removeClass('nav-small-screen');
 			$('.button-alice').addClass('button-black').removeClass('button-alice');
 			$('.hvr-underline-from-center-alice').addClass('hvr-underline-from-center-black').removeClass('hvr-underline-from-center-alice');		
