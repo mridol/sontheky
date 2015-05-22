@@ -15,7 +15,8 @@ video {
 
 body {
     overflow-x: hidden;
-    background: url('../img/background.jpg') repeat-y;
+    background: url('http://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAcQjRw&url=http%3A%2F%2Fwww.freeppt.net%2Fbackground%2Fpurple-liquid-side-swirl-961.html&ei=JN5eVb37E-OvmAXUooHgAg&psig=AFQjCNFZBpuIqln9VhR8PT40pYqMyAeaXQ&ust=1432366994821297') repeat-y;
+    background-attachment: fixed;
     background-size: 100%;
 }
 

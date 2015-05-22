@@ -1,0 +1,164 @@
+#prefooter {
+    display: table;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    position: relative;
+    height: 70px;
+    margin-top: -42px;
+}
+
+#prefooter a:hover {
+    transition: 2s;
+    opacity: 0.7;
+}
+
+.site-footer {
+    background-color: lightblue;
+    text-align: center;
+    font-size: 1.2em;
+    border-bottom: 4px solid yellow;
+}
+
+.site-footer nav li {
+    display: inline-block;
+}
+
+.site-footer li a {
+    padding: 0 20px;
+    border-right: 0.7px solid black;
+    color: black;
+}
+
+.site-footer li a:hover {
+    opacity: 0.7;
+}
+
+.footer-nav {
+    padding: 20px;
+}
+
+#to-top {
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+    color: white;
+    position: relative;
+    text-decoration: none;
+}
+
+.scroll:hover {
+    opacity: 0.7;
+    padding-top: 0px;
+}
+
+.scroll:visited {
+    color: white;
+    opacity: 1;
+}
+
+.scroll {
+    display: block;
+    height: 70px;
+    width: 70px;
+    background-color: inherit;
+    line-height: 35px;
+    color: white;
+    font-size: 1.7em;
+    padding-top: 16px;
+    transition: 0.6s linear 0s;
+}
+
+.footer-info-logo {
+    position: relative;
+    height: 100px;
+}
+
+.foot-info {
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.foot-info p {
+    margin-top: 30px;
+}
+
+.btn {
+    border: 0.7px solid black;
+    text-align: center;
+    padding: 5px;
+    transition: 0.7s linear 0s;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.btn:hover {
+    border: 0.7px solid rgba(0, 0, 0, 0.4);
+}
+
+.footer-rows {
+    margin-bottom: 30px;
+}
+
+.footer-rows h2 {
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.thumbnail {
+    height: 65px;
+    float: left;
+    display: block;
+    position: relative;
+    margin: 0px 20px 0px 0px;
+}
+
+.post-small {
+    height: 65px;
+    margin-bottom: 15px;
+}
+
+.date {
+    font-size: 11px;
+    float: right;
+}
+
+.load-comment {
+    font-size: 17px;
+}
+
+.load-comment ul {
+    list-style-type: none;
+    padding-left: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.load-comment ul li:before {
+    content: "";
+    margin-left: -25px;
+    margin-top: 3px;
+    position: absolute;
+    font-family: "FontAwesome";
+    color: red;
+}
+
+.text-left {
+    font-size: 12px;
+    line-height: 70px;
+}
+
+.text-right {
+    font-size: 12px;
+    line-height: 70px;
+}
+.tag-cloud {
+
+}
+.tag-cloud a {
+	color: black;
+}
+
