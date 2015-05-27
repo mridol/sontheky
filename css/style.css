@@ -14,9 +14,9 @@ video {
 /**         General Navigation Config          **/
 
 body {
+    font-family: 'VNFQuicksand-Bold',sans-serif;
     overflow-x: hidden;
-    background: url('http://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0CAcQjRw&url=http%3A%2F%2Fwww.freeppt.net%2Fbackground%2Fpurple-liquid-side-swirl-961.html&ei=JN5eVb37E-OvmAXUooHgAg&psig=AFQjCNFZBpuIqln9VhR8PT40pYqMyAeaXQ&ust=1432366994821297') repeat-y;
-    background-attachment: fixed;
+    background: url('') repeat-y;
     background-size: 100%;
 }
 
@@ -235,7 +235,7 @@ body {
         padding: 10px 20px;
     }
     .body-item h1 {
-        font-size: 6em;
+        font-size: 4em;
     }
     .service-subtitle {
         font-size: 1.5em;
@@ -287,7 +287,7 @@ body {
     .logo {
         position: relative;
         right: 70px;
-        top: 5px;
+        top: 18px;
         width: 143px;
     }
     .service-subtitle {
@@ -338,11 +338,5 @@ body {
     }
     .hidden-large-screen {
         display: none;
-    }
-    .logo {
-        position: relative;
-        right: 70px;
-        top: 5px;
-        width: 143px;
     }
 }

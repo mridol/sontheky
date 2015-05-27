@@ -39,7 +39,7 @@
 }
 
 .hotproduct {
-    font-family: 'Fira Sans', sans-serif;
+    font-size: 2em;
 }
 
 #carousel .item {
@@ -61,15 +61,20 @@
     padding: 20px 0;
 }
 
+.mid{
+    background: url('http://upplex.de/wp-content/uploads/2013/10/farben_mensch.jpg') no-repeat;
+    background-size: 100% auto;
+}
+
 .btn-readMore {
     position: relative;
     background: #6699FF;
     border: 2px solid #6699FF;
     border-radius: 18px;
     padding-bottom: 3px;
-    font-family: 'Fira Sans', sans-serif;
     font-size: 1.1em;
     color: white;
+    transition: background 0.5s, color 0.5s;
 }
 
 .btn-readMore:hover {
@@ -103,7 +108,6 @@
 /* Phần body */
 
 .hidden-content {
-    font-family: 'Fira Sans', sans-serif;
 }
 
 .product-item img {
@@ -116,7 +120,6 @@
     display: block;
     margin-top: 10px;
     text-align: center;
-    font-family: "Fira Sans", sans-serif;
     font-weight: bold;
     font-size: 1.4em;
 }
@@ -137,7 +140,6 @@
 }
 
 .top h1 {
-    font-family: 'Fira Sans', sans-serif;
     color: #E94747;
     padding: 10px;
 }
@@ -151,8 +153,8 @@
 
 .service-title {
     padding: 50px;
-    font-family: 'Fira Sans', sans-serif;
-    color: #0E45B7;
+    color: rgb(0,177,106);
+    text-shadow: 2px 2px 2px black;
 }
 
 .service-item {
@@ -176,7 +178,7 @@
 }
 
 .service-wrapper {
-    margin: f15px 0;
+    margin-bottom: 20px
 }
 
 .btn-service-readMore {
@@ -192,9 +194,8 @@
     color: rgba(0, 153, 0, 0.6);
 }
 
-.title {
+.hot-title {
     background: lightblue;
-    font-size: 1.8em;
     margin: 10px 0px;
     padding: 10px 40px;
     font-family: Oswald;
